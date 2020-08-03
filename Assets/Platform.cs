@@ -4,23 +4,38 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private float param; 
-    private float t = 1; 
-    protected float speed = 10; 
-    public Transform max; 
-    public Transform min; 
-    private bool playerOnTop = false; 
+    // Start is called before the first frame updat
+    public float speed = 10; 
+    public float powerStartingTime; 
 
-    protected void LimitMovement(){
-        this.transform.position = new Vector2(this.transform.position.x, 
-        Mathf.Clamp(this.transform.position.y, min.transform.position.y, max.transform.position.y));
+    [SerializeField]
+    protected Rigidbody2D rb; 
+    protected float powerCounter; 
+    protected bool powerActivated; 
+    protected bool animActivated = false; 
+
+    [SerializeField]
+    protected Player player; 
+
+    private bool playerOnTop = false; 
+   
+    private void Awake(){
+        powerCounter = powerStartingTime; 
+        rb = GetComponent<Rigidbody2D>(); 
     }
+    
 
     public virtual void setParam(float p){
        
     }
 
+    public virtual void SetPowerTimer(){
+
+    }
+
+    public virtual void ActivateAnimation(){
+
+    }
     void OnCollisionEnter2D(Collision2D other) {
 
        // Debug.Log(other.otherCollider.name); 
@@ -44,4 +59,5 @@ public class Platform : MonoBehaviour
     public bool GetPlayerOnTop(){
         return playerOnTop; 
     }
+
 }

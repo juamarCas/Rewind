@@ -22,6 +22,7 @@ public class Player : MonoBehaviour {
     private GameObject savedGO;
     private float dChange = 1;
     private bool isGrounded;
+    private Platform pl; 
 
     void Start () {
         rb = GetComponent<Rigidbody2D> ();
@@ -52,7 +53,7 @@ public class Player : MonoBehaviour {
         }
         #endregion
         
-        #region selectionPowe
+        #region selectionPower
         if (Input.GetMouseButtonDown (0)) {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
             Vector3 dir = mousePos - this.gameObject.transform.position;
@@ -61,6 +62,8 @@ public class Player : MonoBehaviour {
             if (hit.collider != null) {
                 Debug.Log ("hitted");
                 savedGO = hit.collider.gameObject;
+                pl = savedGO.gameObject.GetComponent<Platform> (); 
+                pl.SetPowerTimer(); 
             }
         }
         #endregion
@@ -68,19 +71,22 @@ public class Player : MonoBehaviour {
 
     void Control () {
         if (savedGO != null) {
-            Platform pl = savedGO.gameObject.GetComponent<Platform> (); 
+            
             if (!pl.GetPlayerOnTop ()) {
                 if (Input.GetKey (KeyCode.Q)) {
                     pl.setParam (-dChange);
-                } else if (Input.GetKey (KeyCode.E)) {
-                    pl.setParam (dChange);
-                } else {
+                } 
+                else {
                     pl.setParam (0);
                 }
             }
 
         }
+    }
 
+    public void nullSavedGO(){
+        pl = null; 
+        savedGO = null; 
     }
 
     void OnDrawGizmosSelected(){
