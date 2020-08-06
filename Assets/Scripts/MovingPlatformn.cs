@@ -36,7 +36,7 @@ public class MovingPlatformn : Platform {
     }
 
     public override void setParam (float p) {
-        transform.Translate (0, p * speed * Time.deltaTime, 0);
+        transform.Translate (p * speed * Time.deltaTime, 0, 0);
     }
 
     public override void SetPowerTimer () {

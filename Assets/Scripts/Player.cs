@@ -24,15 +24,31 @@ public class Player : MonoBehaviour {
     private bool isGrounded;
     private Platform pl; 
 
+    [Header("Animator")]
+    [SerializeField]
+    private Animator anim; 
+
     void Start () {
         rb = GetComponent<Rigidbody2D> ();
+        
     }
 
     // Update is called once per frame
     void Update () {
-
+        
         moveIn = Input.GetAxis ("Horizontal");
         rb.velocity = new Vector2 (moveIn * speed, rb.velocity.y);
+        anim.SetFloat("Speed", Mathf.Abs(moveIn)); 
+        anim.SetBool("Jump",!isGrounded); 
+        if(rb.velocity.x > 0){
+            this.transform.localScale = new Vector3(1,
+            this.transform.localScale.y, 
+            this.transform.localScale.z); 
+        }else if(rb.velocity.x < 0){
+            this.transform.localScale = new Vector3(-1,
+            this.transform.localScale.y, 
+            this.transform.localScale.z); 
+        }
         Ability ();
 
     }

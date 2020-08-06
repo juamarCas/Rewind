@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: b49b5e02c7edbeb49b67611aedd40b40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1724477452161954775
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_0
+  - first:
+      213: 860858627877181464
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_1
+  - first:
+      213: -6926472982898638614
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_2
+  - first:
+      213: -1521383722654953378
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_3
+  - first:
+      213: -4104165698616593338
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_4
+  - first:
+      213: 399333921223544821
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_5
+  - first:
+      213: 7954584528050646972
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_6
+  - first:
+      213: -4908192667904146584
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_7
+  - first:
+      213: 2949596198528070955
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_8
+  - first:
+      213: 998478591631753509
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_9
+  - first:
+      213: -4610459860157771492
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_10
+  - first:
+      213: 5995782229482349977
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_11
+  - first:
+      213: 7782830704503353055
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_12
+  - first:
+      213: 4354421701366600693
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_13
+  - first:
+      213: 4519170317623304514
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_14
+  - first:
+      213: 1412230451817169390
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_15
+  - first:
+      213: 5812819580088631070
+    second: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_16
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1083
+        width: 165
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be39437d25c6b643bb8f5e68009407f
+      internalID: 1724477452161954775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 886
+        width: 143
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f9948e63b205942a41f635e4f0af62
+      internalID: 860858627877181464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 568
+        width: 272
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c657c05c1e6ca2a4091df5c34974eee1
+      internalID: -6926472982898638614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1192
+        width: 779
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d91073859eaf04d8bc9f73ff1e9523
+      internalID: -1521383722654953378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 414
+        width: 143
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072612f6624014641a8b262eaba90ff9
+      internalID: -4104165698616593338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 896
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f97c7879d9ec94983f9b31d899d846
+      internalID: 399333921223544821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 643
+        width: 288
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a978fce1274e34abe37ecd9bc79935
+      internalID: 7954584528050646972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 648
+        width: 353
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074b84dcf9a873418cb35a82a82df34
+      internalID: -4908192667904146584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_8
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 643
+        width: 168
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a48d65d642a7418557cfbd28ee5cd
+      internalID: 2949596198528070955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 424
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef041e16cb8391f488f4f9d877a59582
+      internalID: 998478591631753509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 429
+        width: 165
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ad7ce6ebf99cd4f8c9d28886ab95b4
+      internalID: -4610459860157771492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_11
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 325
+        width: 317
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83639b2dbb66fb34dbe8e150d10d3af2
+      internalID: 5995782229482349977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_12
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 366
+        width: 411
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b389bbe4178b9eb4789fcaaf23a42745
+      internalID: 7782830704503353055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 567
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1187fd02f80d550468b46cca60a84f86
+      internalID: 4354421701366600693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_14
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 7
+        width: 443
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1f8958c8fade245941e5ebe02d6bf8
+      internalID: 4519170317623304514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_15
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 33
+        width: 204
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7a2d347b1ad5643aef5af3943c5d09
+      internalID: 1412230451817169390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 3 copia 8jungla_spritesheet_3_16
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 44
+        width: 434
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03ec4549c2199499f4e9dcb9a353d7
+      internalID: 5812819580088631070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6b9e613ea8bd2414ca2be6024ac8f979
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
