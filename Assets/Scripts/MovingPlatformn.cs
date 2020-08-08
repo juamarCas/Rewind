@@ -40,8 +40,10 @@ public class MovingPlatformn : Platform {
     }
 
     public override void SetPowerTimer () {
+        Debug.Log("Setting time"); 
         rb.isKinematic = true;
         powerActivated = true;
+        powerCounter = powerStartingTime;  
     }
 
     public override void ActivateAnimation () {

@@ -23,14 +23,14 @@ public class Player : MonoBehaviour {
     private float dChange = 1;
     private bool isGrounded;
     private Platform pl; 
-
+    private Vector3 respawnPos; 
     [Header("Animator")]
     [SerializeField]
     private Animator anim; 
 
     void Start () {
         rb = GetComponent<Rigidbody2D> ();
-        
+        respawnPos = this.transform.position;  
     }
 
     // Update is called once per frame
@@ -89,11 +89,14 @@ public class Player : MonoBehaviour {
         if (savedGO != null) {
             
             if (!pl.GetPlayerOnTop ()) {
-                if (Input.GetKey (KeyCode.Q)) {
+                if (Input.GetKey (KeyCode.Q) && isGrounded) {
                     pl.setParam (-dChange);
+                    anim.SetBool("isUsingPower",true); 
+
                 } 
                 else {
                     pl.setParam (0);
+                    anim.SetBool("isUsingPower",false); 
                 }
             }
 
@@ -103,6 +106,14 @@ public class Player : MonoBehaviour {
     public void nullSavedGO(){
         pl = null; 
         savedGO = null; 
+        anim.SetBool("isUsingPower",false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other){
+        if(other.tag == "Danger"){
+            this.transform.position = new Vector3(respawnPos.x, respawnPos.y, this.transform.position.z); 
+        } 
+        if(other.tag == "Respawn") respawnPos = other.gameObject.transform.position;       
     }
 
     void OnDrawGizmosSelected(){

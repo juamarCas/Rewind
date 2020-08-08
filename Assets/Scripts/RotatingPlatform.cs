@@ -9,32 +9,44 @@ public class RotatingPlatform : Platform {
     public float minRot;
     private TargetJoint2D j;
     public bool isSelected = false;
-   
+    float prevIntertia;
+
     void Start () {
         j = GetComponent<TargetJoint2D> ();
-        j.target = pivot.transform.position;
+
+        rb.isKinematic = true;
+        //rb.inertia = 1000;
+        prevIntertia = rb.inertia;
     }
     private void Update () {
-   
-        LimitMovement ();
 
-    }
-
-    void LimitMovement () {
-        if (isSelected) {
-            transform.eulerAngles = new Vector3 (0.0f,
-                0.0f,
-                Mathf.Clamp (this.transform.eulerAngles.z, minRot, maxRot));
-
+        //LimitMovement ();
+        if (powerCounter <= 0) {
+            rb.isKinematic = false;
+            powerActivated = false;
+            player.nullSavedGO ();
+            powerCounter = powerStartingTime;
+        } else if (powerActivated) {
+            powerCounter -= Time.deltaTime;
         }
+
     }
+
     public override void setParam (float p) {
-        
+        if (this.transform.eulerAngles.z <= 0) return;
         transform.RotateAround (pivot.position, new Vector3 (0, 0, 1), speed * p * Time.deltaTime);
     }
 
     public override void SetPowerTimer () {
-        rb.isKinematic = true;
+        Debug.Log ("Setting time");
+        powerCounter = powerStartingTime;
+    }
+
+    public override void ActivateAnimation () {
+        if (!animActivated) {
+            rb.isKinematic = false;
+            animActivated = true;
+        }
     }
 
 }

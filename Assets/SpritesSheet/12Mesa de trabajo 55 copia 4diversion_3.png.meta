@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: bb34b6a39c946294faee5e7c96c94ee5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1177748925713341308
+    second: 12Mesa de trabajo 55 copia 4diversion_3_0
+  - first:
+      213: -3013828468317399449
+    second: 12Mesa de trabajo 55 copia 4diversion_3_1
+  - first:
+      213: -7308593074027444625
+    second: 12Mesa de trabajo 55 copia 4diversion_3_2
+  - first:
+      213: 8128663433159295804
+    second: 12Mesa de trabajo 55 copia 4diversion_3_3
+  - first:
+      213: 3289182495569654603
+    second: 12Mesa de trabajo 55 copia 4diversion_3_4
+  - first:
+      213: -2985146922880734921
+    second: 12Mesa de trabajo 55 copia 4diversion_3_5
+  - first:
+      213: -5896920960335470852
+    second: 12Mesa de trabajo 55 copia 4diversion_3_6
+  - first:
+      213: 930894186700108267
+    second: 12Mesa de trabajo 55 copia 4diversion_3_7
+  - first:
+      213: -2432102982083767640
+    second: 12Mesa de trabajo 55 copia 4diversion_3_8
+  - first:
+      213: 5398848143394795838
+    second: 12Mesa de trabajo 55 copia 4diversion_3_9
+  - first:
+      213: 4282415873549558359
+    second: 12Mesa de trabajo 55 copia 4diversion_3_10
+  - first:
+      213: 4969035441009893360
+    second: 12Mesa de trabajo 55 copia 4diversion_3_11
+  - first:
+      213: -5071858143158185077
+    second: 12Mesa de trabajo 55 copia 4diversion_3_12
+  - first:
+      213: 4248012445688823168
+    second: 12Mesa de trabajo 55 copia 4diversion_3_13
+  - first:
+      213: -3975171594503286144
+    second: 12Mesa de trabajo 55 copia 4diversion_3_14
+  - first:
+      213: -1357509511173969214
+    second: 12Mesa de trabajo 55 copia 4diversion_3_15
+  - first:
+      213: 138387294468945106
+    second: 12Mesa de trabajo 55 copia 4diversion_3_16
+  - first:
+      213: 4636704370073700280
+    second: 12Mesa de trabajo 55 copia 4diversion_3_17
+  - first:
+      213: -7750885856448753349
+    second: 12Mesa de trabajo 55 copia 4diversion_3_18
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 393
+        width: 124
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4842240979bc7afe0800000000000000
+      internalID: -1177748925713341308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 393
+        width: 62
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7665bfbd9fabc26d0800000000000000
+      internalID: -3013828468317399449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 393
+        width: 186
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c6be5259a29a90800000000000000
+      internalID: -7308593074027444625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 671
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33ca203350dec070800000000000000
+      internalID: 8128663433159295804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_4
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 614
+        width: 158
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43bcd98d0685ad20800000000000000
+      internalID: 3289182495569654603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_5
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 588
+        width: 158
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739e75b80b0a296d0800000000000000
+      internalID: -2985146922880734921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_6
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 682
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe16aa31ade92ea0800000000000000
+      internalID: -5896920960335470852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 486
+        width: 198
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17cb9a4533bec00800000000000000
+      internalID: 930894186700108267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_8
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 383
+        width: 213
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a29abf393f6f3ed0800000000000000
+      internalID: -2432102982083767640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_9
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 383
+        width: 187
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f25738cf8cea40800000000000000
+      internalID: 5398848143394795838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 378
+        width: 165
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7526a6b3c823e6b30800000000000000
+      internalID: 4282415873549558359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 218
+        width: 136
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff98b1186f85f440800000000000000
+      internalID: 4969035441009893360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 307
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8352e104e32d99b0800000000000000
+      internalID: -5071858143158185077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 221
+        width: 171
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d78baffc8f3fa30800000000000000
+      internalID: 4248012445688823168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_14
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 227
+        width: 154
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08298640f7a55d8c0800000000000000
+      internalID: -3975171594503286144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 90
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae24fba48292de0800000000000000
+      internalID: -1357509511173969214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 2
+        width: 165
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4bf38d286abe100800000000000000
+      internalID: 138387294468945106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 40
+        width: 273
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b78ebaee02e85040800000000000000
+      internalID: 4636704370073700280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12Mesa de trabajo 55 copia 4diversion_3_18
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 17
+        width: 282
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d5c721625f6490800000000000000
+      internalID: -7750885856448753349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

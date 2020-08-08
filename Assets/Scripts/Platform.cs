@@ -36,6 +36,8 @@ public class Platform : MonoBehaviour
     public virtual void ActivateAnimation(){
 
     }
+
+
     void OnCollisionEnter2D(Collision2D other) {
 
        // Debug.Log(other.otherCollider.name); 
